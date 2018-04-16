@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     @IBAction func buttonTapped(_ sender: Any) {
         buttonCount += 1
         
-        if buttonCount >= 10{
+        if buttonCount >= 5{
         
         view.backgroundColor = UIColor.red
     
